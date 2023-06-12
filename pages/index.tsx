@@ -36,14 +36,29 @@ const IndexPage: React.FC = () => {
   const options = [
     ['Cat', 'Dog'],
     ['Taking', 'Giving'],
-    ['introvert', 'extrovert']
-
+    ['Introvert', 'Extrovert'],
+    ['Coffee', 'Tea'],
+    ['Books', 'Movies'],
+    ['Morning Person', 'Night Owl'],
+    ['Summer', 'Winter'],
+    ['City', 'Countryside'],
+    ['LMU', 'TUM'],
+    ['Physical Book', 'E-Book'],
+    ['Paul', 'Fillipo']
   ];
   const colors = [
     ['#C9AFFF', '#001AFF'],
     ['#AFFFBC', '#FF00B8'],
-    ['#FFF500', '#FFAFC3']
-  ]
+    ['#FFF500', '#FFAFC3'],
+    ['#0080FF', '#FFD700'],
+    ['#32CD32', '#FF4500'],
+    ['#ADFF2F', '#8A2BE2'],
+    ['#FF6347', '#40E0D0'],
+    ['#D2691E', '#9ACD32'],
+    ['#F08080', '#20B2AA'],
+    ['#B0C4DE', '#00FF7F'],
+    ['#FFDAB9', '#DDA0DD']
+  ];
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
